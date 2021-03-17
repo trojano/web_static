@@ -8,7 +8,7 @@
 #email{
   position: relative;
   top: 10px;
-  left: 10px;
+  left: 20px;
 }
 
 #midias{
@@ -36,7 +36,7 @@
   #midias{
     position: relative;
     top: -500px;
-    left: 850px;
+    left: 860px;
     cursor:pointer;
   }
 
