@@ -1,19 +1,43 @@
+
 #home{
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
-  max-width: 680px;
-  margin: 0 auto;
+  
 }
 
 #email{
   position: relative;
-  top: -550px;
-  left: 850px;
+  top: 10px;
+  left: 10px;
 }
 
 #midias{
   position: relative;
-  top: -500px;
-  left: 850px;
+  top: 10px;
+  left: 10px;
+}
+
+@media ( min-width: 900px ) {
+
+  #home{
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  
+  #email{
+    position: relative;
+    top: -550px;
+    left: 850px;
+  }
+  
+  #midias{
+    position: relative;
+    top: -500px;
+    left: 850px;
+  }
+
+
 }
 
